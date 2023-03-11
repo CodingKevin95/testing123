@@ -21,6 +21,7 @@ export default function IntroPage() {
         // >
         <div className={styles.introPage}>
             <div className={styles.backgroundColor}></div>
+            <div className={styles.backgroundColor2}></div>
             <div className={styles.leftAboutMe}>
                 <h1 className={styles.introTitle}>Hi, my name is Kevin and I'm a software developer 👋</h1>
             </div>
