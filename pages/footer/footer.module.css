@@ -1,0 +1,49 @@
+.footer {
+    /* height: 20vh; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    background-color: black;
+    /* background-color: aqua; */
+    color: white;
+    border-top: 4px solid rgb(0, 255, 234);
+}
+
+.contact {
+    /* background-color: bisque; */
+    padding-left: 10%;
+    width: fit-content;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    color: aqua;
+}
+
+.contactSectionTitle {
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+.contactSection {
+    font-size: 1.5em;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin-top: 5%;
+}
+
+.contactSection:hover {
+    color: rgb(0, 255, 234);
+}
+
+@media screen and (max-width: 500px) {
+
+    .contactSectionTitle {
+        font-size: 1.5em;
+    }
+    
+    .contactSection {
+        font-size: 1.2em;
+    }
+
+    }

@@ -21,19 +21,16 @@ export default function PortfolioPage() {
         },
         {
             img: solar,
-            description: "The objective of this applicatio is to workin a group to display images and information about our solar system. APIs from SpaceX and NASA were used to create this application.",
+            description: "The objective of this application is to workin a group to display images and information about our solar system. APIs from SpaceX and NASA were used to create this application.",
             liveLink: "https://solar-conveyance-project.netlify.app/"
         },
-        // {
-        //     img: rps,
-        //     description: "Desktop and laptop view only. A classic game that everyone knows and loves, but with a short narrative, an unique UI and interactions to give it a little bit of life. Hope you enjoy!",
-        //     liveLink: "https://codingkevin95.github.io/-rock-paper-scissor/"
-        // },
     ]
 
     return (
         <div className={styles.aboutPortfolio}>
-            <h1>Projects</h1>
+            <div className={styles.backgroundColors}></div>
+            <div className={styles.backgroundColors2}></div>
+            <h1 className={styles.projectTitle}>Projects</h1>
             <div className={styles.portfolioProjectBox}>
             { portfolioArray.map((item, i) => {
                     return (
