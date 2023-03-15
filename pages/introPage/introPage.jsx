@@ -43,7 +43,7 @@ export default function IntroPage() {
                 </p>
                 <a className={styles.contactSection}>
                     <BsArrow90DegRight/>
-                    <button className={styles.contactButton} onClick={scrollToBottom}  >Let's get in touch</button>
+                    <button className={styles.contactButton} onClick={scrollToBottom}>Let's get in touch</button>
                     <div className={styles.highlightContactButton}></div>
                     <div className={styles.highlightContactButton2}></div>
                 </a>
